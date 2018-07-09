@@ -1,0 +1,35 @@
+console.log('JavaScript patterns is running');
+
+// What is a Pattern?
+/* 
+   - A reusable solution that can be applied tgo occuring problems in software design (JS apps)
+   - Can aslo be though of as programming templates
+   - Situations vary significantly 
+
+   - What patterns we will look at: 
+     -Module & Revealing Module Patterns:
+	   - used for overall structure, allows us to break our code up into modules where we can have 
+	   private and public functions & variables
+	   - *note about modules: in ES6/ES2015 introduced actual modules in JavaScript, meaning that we can use seperate files 
+	   to export modules which are just custom peices of code and import them into a file. 
+	     -this is not supported in browsers so babel and/or webpack is needed to compile it down
+	   - In Es5 we have the Module pattern that allows us to break up our code into self contained modules
+	   with private properties(variables) and methods(functions) 
+	   
+	 
+	 -Singleton:
+	   - a variation of the Module pattern where we can only create 1 instance of an object 
+
+	 -Factory: 
+	   - used to create many many objects 
+
+	 -Observer:
+	   - allows us to subscribe and unsubscribe to events
+
+	 -Mediator:
+	   - has a central mediator and colleages that seperate off of it
+
+	 -State: 
+	   - allows us to have a certain state and we can change that state
+*/
+
